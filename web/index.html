@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="claro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Makan · Control de costos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="cargando">
+<div class="loadbar" aria-hidden="true"></div>
+
+<div class="app">
+  <aside class="side">
+    <div class="brand">
+      <img class="brand-logo" src="assets/makan-logo.png" alt="Makan, servicios y accesorios">
+      <p class="brand-app">Control de costos</p>
+    </div>
+
+    <nav id="nav" class="nav" aria-label="Secciones">
+      <div class="sk sk-dark" style="height:36px"></div>
+      <div class="sk sk-dark" style="height:36px"></div>
+      <div class="sk sk-dark" style="height:36px"></div>
+      <div class="sk sk-dark" style="height:36px"></div>
+      <div class="sk sk-dark" style="height:36px"></div>
+    </nav>
+
+    <div class="side-foot">
+      <p id="save-state" class="save-state"><i class="dot"></i><span>Cargando</span></p>
+      <div id="act-enlace" class="act-enlace"></div>
+      <button class="btn-restore" id="btn-restore" type="button" data-act="restaurar">Restaurar datos de ejemplo</button>
+      <p class="version" id="version">v1.4.0-beta</p>
+    </div>
+  </aside>
+
+  <div class="main">
+    <header id="topbar" class="topbar">
+      <div class="hello">
+        <div class="sk" style="width:260px;height:20px"></div>
+        <div class="sk" style="width:180px;height:12px;margin-top:8px"></div>
+      </div>
+      <div class="sk" style="width:190px;height:38px"></div>
+      <div class="sk" style="width:230px;height:38px"></div>
+    </header>
+    <div class="brandline" aria-hidden="true"><i class="chk"></i><i class="red"></i></div>
+
+    <div id="pagehead" class="pagehead">
+      <div>
+        <div class="sk" style="width:120px;height:11px"></div>
+        <div class="sk" style="width:300px;height:26px;margin-top:10px"></div>
+      </div>
+      <div class="sk" style="width:160px;height:38px"></div>
+    </div>
+
+    <main id="view" class="view" tabindex="-1" aria-live="polite">
+      <div class="wrap">
+        <div class="sk-row">
+          <div class="sk" style="height:170px"></div>
+          <div class="sk" style="height:170px"></div>
+          <div class="sk" style="height:170px"></div>
+          <div class="sk" style="height:170px"></div>
+        </div>
+        <div class="sk-row two" style="margin-top:18px">
+          <div class="sk" style="height:140px"></div>
+          <div class="sk" style="height:140px"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<aside id="actualiza" class="actualiza" role="status" aria-live="polite" hidden></aside>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="seed.js"></script>
+<script src="calc.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
