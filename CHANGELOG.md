@@ -2,6 +2,11 @@
 
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado semántico.
 
+## 1.4.1-beta
+
+- Instalador de Windows (`Instalar_ControlDeCostos.exe`) generado automáticamente en cada versión.
+- Las actualizaciones automáticas apuntan al repositorio oficial sin configuración extra.
+
 ## [1.4.0-beta] - 2026-11-26
 
 ### Agregado

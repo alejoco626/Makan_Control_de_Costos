@@ -25,7 +25,7 @@ import urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
 
-REPO_PREDETERMINADO = ""  # por ejemplo "mi-usuario/control-de-costos"
+REPO_PREDETERMINADO = "alejoco626/Makan_Control_de_Costos"  # por ejemplo "mi-usuario/control-de-costos"
 API = "https://api.github.com"
 EXE = "ControlDeCostos.exe"
 REVISAR_CADA = timedelta(hours=6)
