@@ -91,7 +91,7 @@ Primera versión de prueba.
 - 9 verificaciones cruzadas entre documentos, con confirmación manual del vínculo del pago bancario.
 - Exportación a CSV.
 - Identidad visual de Makan: negro y rojo, bandera a cuadros, tablero de instrumentos, esqueletos de carga y animaciones rápidas.
-- Datos de demo del expediente de la guía 896705.
+- Datos de ejemplo iniciales.
 
 ### Pendiente
 - Varios expedientes.

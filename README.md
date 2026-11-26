@@ -48,7 +48,7 @@ Se guardan solos en `%APPDATA%\RelacionDocumentos\datos.json` (el nombre de la c
 | `web/style.css` | Diseño con la identidad de Makan (claro y noche) |
 | `web/app.js` | Pantallas e interacción |
 | `web/calc.js` | Cálculos, cruces y operaciones contables |
-| `web/seed.js` | Datos de ejemplo del expediente 896705 |
+| `web/seed.js` | Estado inicial vacío y tabla base de aranceles |
 | `tests/` | Pruebas: `node tests/calc.test.js` y `python -m unittest discover -s tests` |
 
 ## Versiones
